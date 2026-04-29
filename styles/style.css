@@ -68,6 +68,12 @@ section {
     border: 1px solid #e1e1e1;
 }
 
+#space {
+    border: none;
+    background: none;
+    height: 200px;
+}
+
 h2 {
     margin-bottom: 1rem;
     color: #2c3e50;
