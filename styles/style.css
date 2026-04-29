@@ -1,0 +1,120 @@
+body {
+    margin: 0;
+    background-color: #f4f7f6;
+    color: #333;
+    font-family: 'Segoe UI', sans-serif;
+    padding-top: 60px;
+}
+
+nav {
+    background-color: #2c3e50;
+    padding: 1rem 0;
+    position: fixed;
+    top: 0;
+    width: 100%;
+    z-index: 1000;
+}
+
+nav ul {
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+}
+
+nav a {
+    color: #bb86fc;
+    text-decoration: none;
+    font-weight: bold;
+    font-size: 16px;
+}
+
+nav a:hover {
+    color: #03dac6;
+}
+
+header {
+    text-align: center;
+    padding: 2rem 0;
+}
+
+header h1 {
+    color: #2c3e50;
+    letter-spacing: 1px;
+    text-shadow: 1px 1px 2px #0000001a;
+}
+
+footer {
+    background-color: #f0f0f0;
+    color: #555;
+    text-align: center;
+    padding: 1.5rem 0;
+    border-top: 1px solid #ddd;
+    margin-top: auto;
+}
+
+main {
+    flex: 1;
+    max-width: 800px;
+    margin: 2rem auto;
+    width: 90%;
+}
+
+section {
+    background: #fff;
+    padding: 1.5rem;
+    border-radius: 8px;
+    margin-bottom: 1.5rem;
+    border: 1px solid #e1e1e1;
+}
+
+h2 {
+    margin-bottom: 1rem;
+    color: #2c3e50;
+    border-bottom: 1px solid #eee;
+    padding-bottom: 0.5rem;
+}
+
+article {
+    margin-bottom: 1rem;
+}
+
+label {
+    display: block;
+    margin-bottom: 4px;
+    font-weight: 600;
+}
+
+.label-inline {
+    display: inline-block;
+    margin-left: 5px;
+    margin-bottom: 10px;
+    font-weight: normal;
+}
+
+input[type="text"],
+input[type="email"],
+select,
+textarea {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 15px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+
+button, .btn-link {
+    background-color: #bb86fc;
+    color: #000;
+    border: none;
+    padding: 12px 24px;
+    border-radius: 4px;
+    cursor: pointer;
+    font-weight: bold;
+    text-decoration: none;
+    display: inline-block;
+}
+
+button:hover, .btn-link:hover {
+    background-color: #03dac6;
+}
